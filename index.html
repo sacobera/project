@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoCal</title>
+    <link href = "styles.css" rel="stylesheet">
+    
+</head>
+<body>
+
+    <nav> 
+        <ul>
+            <li class= "navigator"><a href="./home.html"> Home </a> </li>
+            <li class= "navigator"><a href="./index.html"> Loan Calculator</a> </li>
+            <li class= "navigator"><a href="./mortgage.html"> Mortgage Calculator </a> </li>
+            
+        </ul>
+    </nav>
+
+    <form>
+    <div class="loan-calculator">
+    <h1> Loan Calculator  </h1>
+
+   <p> Loan Amount: $ <input id= "amount" placeholder="amount" type="number" min="1" max="10000000" onchange="computeLoan()"></p>
+   <!-- step, onchange -->
+   <p> Interest Rate: <input id="interest_rate" placeholder="interest rate" type="number" min="1" max="10000000" value=" " step=".1" onchange="computeLoan()"></p> 
+    <p> Months: <input id="month" type="number" min="1" max="72" value="1" step="1" onchange="computeLoan()"> </p>
+
+
+    <p id="payment-total">Payment Total </p>
+
+    </form>
+    <button id="reset" type="reset" value="Reset" onclick="reset()" > Reset </button> 
+</div>
+    
+<div class ="lcalc">
+    <p>This Loan Payment Calculator  helps calculate your monthly payment total with your loan amount and interest rate factored in. 
+    Here's to you getting out of debt! Cheers! </p>
+</div>
+
+<script src="index.js"> </script>
+</body>
+</html>

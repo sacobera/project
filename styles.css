@@ -1,0 +1,100 @@
+body {
+    background-color: #92C6DC;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+h1{
+    font-size: 35px
+}
+
+h3{
+    font-size: 20px;
+}
+
+.loan-calculator{
+    width: 400px;
+    height: 450px;
+    background-color: #6D8EA0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 30px 0px 0px 100px;
+    border-radius: 50px;
+    color: #f8b878;
+}
+
+nav{
+    border-bottom: 2px solid orange;
+}
+.navigator{
+    margin-right: 2em;
+	display: inline;
+    float:inline-start;
+}
+.mortgage-calculator{
+    width: 500px;
+    height: 500px;
+    background-color: #6D8EA0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    padding: 30px 0px 0px 100px;
+    border-radius: 25px;
+    color: #f8b878;
+}
+
+.welcome{
+    color: darkslategray;
+    font-size: 30px;
+    padding-left: 130px;
+
+}
+
+.name{
+    color: darkorange;
+    font-size: 80px;
+    margin-bottom: -20px;
+
+}
+
+.btn-container{
+justify-content: space-evenly;
+  height: 40px;
+  display: flex;
+  padding-top: 200px;
+}
+
+#butones {
+    font-size: 20px;
+    background-color: #f8b878;
+    font-family: sans-serif;
+    border-radius: 12px;
+    
+}
+
+#butones:hover {
+    color: white;
+}
+
+footer{
+    margin-top: 130px;
+    color: gray;
+}
+
+.lcalc{
+    margin-top: 600px;
+    text-align: justify;
+    align-content: center;
+    margin-left: 50px;
+
+}
+.mcalc{
+    margin-top: 300px;
+    text-align: justify;
+    align-content: center;
+    margin-left: 300px;
+}
+
